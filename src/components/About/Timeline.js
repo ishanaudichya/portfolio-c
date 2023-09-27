@@ -53,7 +53,7 @@ const Timeline = () => {
         className="vertical-timeline-element--education"
         date="2021-present"
         iconStyle={{ background: '#fff', color: '#fff' }}
-        icon={<img className='img-timeline' src={vit}></img>}   
+        icon={<img alt='vit' className='img-timeline' src={vit}></img>}   
         
       >
         <h3 className="vertical-timeline-element-title">Bachelor's degree in CSE</h3>
