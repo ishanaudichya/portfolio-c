@@ -19,7 +19,7 @@ const Timeline = () => {
         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
         date="2023 - present"
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        icon={<img className='img-timeline' src={econ}></img>}   
+        icon={<img alt='econ' className='img-timeline' src={econ}></img>}   
       >
         <h3 className="vertical-timeline-element-title">PES Web Intern</h3>
         <h4 className="vertical-timeline-element-subtitle">E Connect Solutions Pvt. Ltd.
@@ -38,7 +38,7 @@ const Timeline = () => {
         contentStyle={{ background: '#0d1414', color: '#fff' }}
 
         iconStyle={{ background: '#fff', color: '#fff' }}
-        icon={<img className='img-timeline' src={ieee}></img>}   
+        icon={<img alt='ieee' className='img-timeline' src={ieee}></img>}   
       >
         <h3 className="vertical-timeline-element-title">Head Coordinator</h3>
         <h4 className="vertical-timeline-element-subtitle">IEEE</h4>
@@ -66,7 +66,7 @@ const Timeline = () => {
         className="vertical-timeline-element--education"
         date="2018 - 2021"
         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-        icon={<img className='img-timeline' src={res}></img>}   
+        icon={<img alt='res' className='img-timeline' src={res}></img>}   
 
       >
         <h3 className="vertical-timeline-element-title">Resonance Eduventures Limited</h3>
@@ -78,7 +78,7 @@ const Timeline = () => {
         className="vertical-timeline-element--education"
         date="2018 - 2021"
         iconStyle={{ background: '#fff', color: '#fff' }}
-        icon={<img className='img-timeline' src={dps}></img>}   
+        icon={<img alt='dps' className='img-timeline' src={dps}></img>}   
 
       >
         <h3 className="vertical-timeline-element-title">Delhi Public School, Udaipur</h3><br></br>
@@ -86,9 +86,7 @@ const Timeline = () => {
         <h5 className="vertical-timeline-element-subtitle">Secondary School Examination-SSC (CBSE)</h5>
         
       </VerticalTimelineElement>
-      <VerticalTimelineElement
-        iconStyle={{ background: '#222', color: '#fff' }}
-      />
+    
     </VerticalTimeline></div>
   )
 }
