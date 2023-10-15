@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
+import url from "../../Assets/Projects/url.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-// import suicide from "../../Assets/Projects/suicide.png";
+import chatbot from "../../Assets/Projects/chatbot.jpg";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -61,6 +61,24 @@ Make sure to visit my github for all the other project repositories
               title="Hand Gesture Tracking ImP"
               description="Hand tracking and body tracking module that maps cardinal points using computer vision. Uses the mediapipe library for accurate results and recognition."
               ghLink="https://github.com/ishanaudichya/OpenCV"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatbot}
+              isBlog={false}
+              title="GPT-3.5 ChatBot"
+              description="Chat Bot with GPT 3.5 is a React-based chat application that connects to the OpenAI API, providing a platform for interactive queries and answers using cutting-edge natural language processing."
+              ghLink="https://github.com/ishanaudichya/gpt3.5-chatbot-openaiapi"
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={url}
+              isBlog={false}
+              title="Malware Detection ML Model"
+              description="This Python machine learning project utilizes scikit-learn, XGBoost, LightGBM, and Seaborn to classify URLs as either malware or phishing based on the Kaggle Malware URL dataset. It includes data cleaning, common token analysis, model training and url analysis"
+              ghLink="https://github.com/ishanaudichya/gpt3.5-chatbot-openaiapi"
             />
           </Col>
         </Row>
