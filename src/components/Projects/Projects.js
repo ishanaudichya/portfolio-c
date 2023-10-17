@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import chatbot from "../../Assets/Projects/chatbot.jpg";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import sales from "../../Assets/Projects/sales.png";
 
 function Projects() {
   return (
@@ -79,6 +80,16 @@ Make sure to visit my github for all the other project repositories
               title="Malware Detection ML Model"
               description="This Python machine learning project utilizes scikit-learn, XGBoost, LightGBM, and Seaborn to classify URLs as either malware or phishing based on the Kaggle Malware URL dataset. It includes data cleaning, common token analysis, model training and url analysis"
               ghLink="https://github.com/ishanaudichya/gpt3.5-chatbot-openaiapi"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sales}
+              isBlog={false}
+              title="Sales Management Software"
+              description="React.js-based Web Software that offers secure authentication, comprehensive sales analytics, employee management, data export, and intuitive task management, all with a user-friendly interface and support for light and dark modes for a seamless user experience."
+              ghLink="https://github.com/ishanaudichya/sales-management-software"
+              demoLink="https://audichyaenterprises.netlify.app/"     
             />
           </Col>
         </Row>
