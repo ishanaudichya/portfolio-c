@@ -9,6 +9,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import chatbot from "../../Assets/Projects/chatbot.jpg";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import sales from "../../Assets/Projects/sales.png";
+import imgcrypt from '../../Assets/Projects/imgcrypt.png'
 
 function Projects() {
   return (
@@ -34,6 +35,38 @@ Make sure to visit my github for all the other project repositories
             />
           </Col>
 
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sales}
+              isBlog={false}
+              title="Sales Management Software"
+              description="React.js-based Web Software that offers secure authentication, comprehensive sales analytics, employee management, data export, and intuitive task management, all with a user-friendly interface and support for light and dark modes for a seamless user experience."
+              ghLink="https://github.com/ishanaudichya/sales-management-software"
+              demoLink="https://audichyaenterprises.netlify.app/"     
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Dotify | Img to Reacitve dots"
+              description="Dotify is a web-based project that harnesses the power of JavaScript to breathe life into your favorite images, allowing them to come alive as reactive dots that collide, merge, and leave behind an impression of the original image."
+              ghLink="https://github.com/ishanaudichya/reactive-dots"
+              demoLink="https://reactive-dots-ishan.netlify.app/"              
+            />
+          </Col><Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={imgcrypt}
+              isBlog={false}
+              title="ImageCrypt | Secure Image Encryption"
+              description="ImageCrypt is a react tool that uses AES-256 encryption to securely convert image files into encrypted strings, safeguarded by a userdefined password. It ensures data confidentiality, allowing users to decrypt and retrieve their images when needed."
+              ghLink="https://github.com/ishanaudichya/sales-management-software"
+              demoLink="https://audichyaenterprises.netlify.app/"     
+            />
+          </Col>
+         
+         
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
@@ -44,15 +77,13 @@ Make sure to visit my github for all the other project repositories
               demoLink="https://audi-chat.netlify.app/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
+           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={url}
               isBlog={false}
-              title="Dotify | Img to Reacitve dots"
-              description="Dotify is a web-based project that harnesses the power of JavaScript to breathe life into your favorite images, allowing them to come alive as reactive dots that collide, merge, and leave behind an impression of the original image."
-              ghLink="https://github.com/ishanaudichya/reactive-dots"
-              demoLink="https://reactive-dots-ishan.netlify.app/"              
+              title="Malware Detection ML Model"
+              description="This Python machine learning project utilizes scikit-learn, XGBoost, LightGBM, and Seaborn to classify URLs as either malware or phishing based on the Kaggle Malware URL dataset. It includes data cleaning, common token analysis, model training and url analysis"
+              ghLink="https://github.com/ishanaudichya/gpt3.5-chatbot-openaiapi"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -73,25 +104,7 @@ Make sure to visit my github for all the other project repositories
               ghLink="https://github.com/ishanaudichya/gpt3.5-chatbot-openaiapi"
             />
           </Col>
-           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={url}
-              isBlog={false}
-              title="Malware Detection ML Model"
-              description="This Python machine learning project utilizes scikit-learn, XGBoost, LightGBM, and Seaborn to classify URLs as either malware or phishing based on the Kaggle Malware URL dataset. It includes data cleaning, common token analysis, model training and url analysis"
-              ghLink="https://github.com/ishanaudichya/gpt3.5-chatbot-openaiapi"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={sales}
-              isBlog={false}
-              title="Sales Management Software"
-              description="React.js-based Web Software that offers secure authentication, comprehensive sales analytics, employee management, data export, and intuitive task management, all with a user-friendly interface and support for light and dark modes for a seamless user experience."
-              ghLink="https://github.com/ishanaudichya/sales-management-software"
-              demoLink="https://audichyaenterprises.netlify.app/"     
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
