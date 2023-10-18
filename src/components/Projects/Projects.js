@@ -61,8 +61,8 @@ Make sure to visit my github for all the other project repositories
               isBlog={false}
               title="ImageCrypt | Secure Image Encryption"
               description="ImageCrypt is a react tool that uses AES-256 encryption to securely convert image files into encrypted strings, safeguarded by a userdefined password. It ensures data confidentiality, allowing users to decrypt and retrieve their images when needed."
-              ghLink="https://github.com/ishanaudichya/sales-management-software"
-              demoLink="https://audichyaenterprises.netlify.app/"     
+              ghLink="https://github.com/ishanaudichya/Image-encryption-service"
+              demoLink="https://image-crypt.netlify.app/"     
             />
           </Col>
          
