@@ -29,7 +29,7 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #003e3e;
-  background-image: url(./Assets/pre.svg);
+  background-image: url(./Assets/preload.gif);
   background-repeat: no-repeat;
   background-position: center;
 }
