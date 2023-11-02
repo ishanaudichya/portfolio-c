@@ -19,7 +19,13 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ height:"78vh", justifyContent: "center", position: "relative" }}>
+        <Row
+          style={{
+            height: "78vh",
+            justifyContent: "center",
+            position: "relative",
+          }}
+        >
           {/* <Button
             variant="primary"
             href={"https://drive.google.com/uc?export=download&id=16R1uZtoJL6gmy9LTG0-mKbi4y3JR5VY9"}
@@ -30,7 +36,8 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Downlad Resume
           </Button> */}
-          Resume is temporarily removed. Please drop me a message on any of my socials for my resume
+          Resume is temporarily removed. Please drop me a message on any of my
+          socials for my resume
         </Row>
 
         {/* <Row className="resume">
@@ -38,7 +45,7 @@ function ResumeNew() {
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document> 
         </Row> */}
-{/* 
+        {/* 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
