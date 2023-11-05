@@ -9,8 +9,8 @@ import chatify from "../../Assets/Projects/chatify.png";
 import chatbot from "../../Assets/Projects/chatbot.jpg";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import sales from "../../Assets/Projects/sales.png";
-import imgcrypt from '../../Assets/Projects/imgcrypt.png'
-
+import imgcrypt from "../../Assets/Projects/imgcrypt.png";
+import erp from "../../Assets/Projects/erp.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -20,8 +20,11 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-        Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. Here are some of my projects.
-Make sure to visit my github for all the other project repositories
+          Following projects showcases my skills and experience through
+          real-world examples of my work. Each project is briefly described with
+          links to code repositories and live demos in it. Here are some of my
+          projects. Make sure to visit my github for all the other project
+          repositories
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -35,7 +38,6 @@ Make sure to visit my github for all the other project repositories
             />
           </Col>
 
-          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={sales}
@@ -43,7 +45,17 @@ Make sure to visit my github for all the other project repositories
               title="Sales Management Software"
               description="React.js-based Web Software that offers secure authentication, comprehensive sales analytics, employee management, data export, and intuitive task management, all with a user-friendly interface and support for light and dark modes for a seamless user experience."
               ghLink="https://github.com/ishanaudichya/sales-management-software"
-              demoLink="https://audichyaenterprises.netlify.app/"     
+              demoLink="https://audichyaenterprises.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={erp}
+              isBlog={false}
+              title="Business ERP Software | Inventory Management & Invoicing"
+              description=" MERN Business Software simplifies inventory management and invoicing. Easily add, categorize, and edit products. Create professional invoices with real-time data sync and a powerful tech stack. Your one-stop solution for business needs"
+              ghLink="https://github.com/ishanaudichya/business-erp-mern"
+              demoLink="https://neonsports.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -53,20 +65,20 @@ Make sure to visit my github for all the other project repositories
               title="Dotify | Img to Reacitve dots"
               description="Dotify is a web-based project that harnesses the power of JavaScript to breathe life into your favorite images, allowing them to come alive as reactive dots that collide, merge, and leave behind an impression of the original image."
               ghLink="https://github.com/ishanaudichya/reactive-dots"
-              demoLink="https://reactive-dots-ishan.netlify.app/"              
+              demoLink="https://reactive-dots-ishan.netlify.app/"
             />
-          </Col><Col md={4} className="project-card">
+          </Col>
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={imgcrypt}
               isBlog={false}
               title="ImageCrypt | Secure Image Encryption"
               description="ImageCrypt is a react tool that uses AES-256 encryption to securely convert image files into encrypted strings, safeguarded by a userdefined password. It ensures data confidentiality, allowing users to decrypt and retrieve their images when needed."
               ghLink="https://github.com/ishanaudichya/Image-encryption-service"
-              demoLink="https://image-crypt.netlify.app/"     
+              demoLink="https://image-crypt.netlify.app/"
             />
           </Col>
-         
-         
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
@@ -77,7 +89,7 @@ Make sure to visit my github for all the other project repositories
               demoLink="https://audi-chat.netlify.app/"
             />
           </Col>
-           <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={url}
               isBlog={false}
@@ -104,7 +116,6 @@ Make sure to visit my github for all the other project repositories
               ghLink="https://github.com/ishanaudichya/gpt3.5-chatbot-openaiapi"
             />
           </Col>
-          
         </Row>
       </Container>
     </Container>
