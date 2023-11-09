@@ -1,6 +1,6 @@
-# <center>Personal Portfolio</center>
+# <p align="center">Personal Portfolio</p>
 
-### <center><a  href="https://ishanaudichya.netlify.app">ishanaudichya.netlify.app</a></center>
+### <p align="center"><a align=center href="https://ishanaudichya.netlify.app">ishanaudichya.netlify.app</a></p>
 
 ![Thumbnail](/preview.jpg)
 
@@ -38,6 +38,7 @@ If you found my portfolio interesting and useful, please consider giving this re
 Don't forget to check out my other projects as well:
 
 - [VitSphere](https://github.com/ishanaudichya/social-media): Mern Social media exclusively for my uni.
+- [Business ERP](https://github.com/ishanaudichya/business-erp-mern): Inventory and invoicing MERN Business Software. Effortlessly manage products, create and print professional invoices with real-time syncing
 
 Your support is greatly appreciated!
 
