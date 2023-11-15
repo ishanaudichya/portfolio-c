@@ -27,7 +27,7 @@ Here are the site stats using google search console and lighthouse.
 ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4ebe7d57-d6b2-4e70-affb-ad4d611b85be/deploy-status)](https://app.netlify.com/sites/ishanaudichya/deploys)
 
-Site link => https://ishanaudichya.netlif.app <br>
+Site link => https://ishanaudichya.netlify.app <br>
 
 The website is up and running on netlify and deployed via github integration. https://app.netlify.com/sites/ishanaudichya/deploys
 
