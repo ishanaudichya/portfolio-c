@@ -9,6 +9,7 @@ import {
   SiAnaconda,
   SiCodepen,
 } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 
 function Toolstack() {
   return (
@@ -20,20 +21,23 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <FaAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiJupyter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiBlender/>
+        <SiBlender />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAnaconda/>
+        <SiAnaconda />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiCodepen/>
-        </Col>
+        <SiCodepen />
+      </Col>
     </Row>
   );
 }
