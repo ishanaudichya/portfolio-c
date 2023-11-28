@@ -6,6 +6,7 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
+  DiDocker,
   DiPython,
   DiGit,
   DiMysql,
@@ -14,7 +15,9 @@ import {
 import {
   SiNextdotjs,
   SiOpencv,
-  SiTensorflow,
+  SiTailwindcss,
+  SiKubernetes,
+  SiApachekafka,
 } from "react-icons/si";
 
 function Techstack() {
@@ -41,16 +44,25 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
       </Col>
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachekafka />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiOpencv />
       </Col>
