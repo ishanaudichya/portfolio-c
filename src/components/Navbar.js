@@ -10,9 +10,10 @@ import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineLinkedin,
+  AiFillLinkedin,
   AiOutlineUser,
 } from "react-icons/ai";
+import { FaRegFileCode } from "react-icons/fa";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -72,6 +73,15 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/techstack"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaRegFileCode style={{ marginBottom: "2px" }} /> Techstack
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
@@ -92,7 +102,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://www.linkedin.com/in/ishan-audichya/"
                 target="_blank"
@@ -100,6 +110,16 @@ function NavBar() {
               >
                 <AiOutlineLinkedin style={{ marginBottom: "2px" }} /> LinkedIn
               </Nav.Link>
+            </Nav.Item> */}
+
+            <Nav.Item className="fork-btn">
+              <Button
+                href="https://www.linkedin.com/in/ishan-audichya/"
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                <AiFillLinkedin style={{ fontSize: "1.2em" }} />{" "}
+              </Button>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
