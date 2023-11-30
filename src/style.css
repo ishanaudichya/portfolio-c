@@ -748,3 +748,8 @@ button:focus {
 .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date{
   left: 87%;
 }
+
+
+.skillset {
+  padding-bottom: 80px !important;
+}
