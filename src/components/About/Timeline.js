@@ -17,24 +17,6 @@ const Timeline = () => {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(0, 120, 120)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="Sept 2023 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<img alt="econ" className="img-timeline" src={econ}></img>}
-        >
-          <h3 className="vertical-timeline-element-title">PES Web Intern</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            E Connect Solutions Pvt. Ltd.
-          </h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
           date="Aug 2023 - present"
           contentStyle={{ background: "#0d1414", color: "#fff" }}
           iconStyle={{ background: "#fff", color: "#fff" }}
@@ -45,6 +27,23 @@ const Timeline = () => {
           <p>
             Cheif coordinator of Hack Department for IEEE International
             Conference 2024.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(0, 120, 120)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="Sept 2023 - December 2023"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<img alt="econ" className="img-timeline" src={econ}></img>}
+        >
+          <h3 className="vertical-timeline-element-title">PES Web Intern</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            E Connect Solutions Pvt. Ltd.
+          </h4>
+          <p>
+            Creative Direction, User Experience, Visual Design, Project
+            Management, Team Leading
           </p>
         </VerticalTimelineElement>
 
