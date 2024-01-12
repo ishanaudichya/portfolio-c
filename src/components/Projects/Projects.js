@@ -10,6 +10,7 @@ import chatbot from "../../Assets/Projects/chatbot.jpg";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import sales from "../../Assets/Projects/sales.png";
 import imgcrypt from "../../Assets/Projects/imgcrypt.png";
+import vitsphere from "../../Assets/Projects/vitsphere.png";
 import erp from "../../Assets/Projects/erp.png";
 function Projects() {
   return (
@@ -27,6 +28,16 @@ function Projects() {
           repositories
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vitsphere}
+              isBlog={false}
+              title="VitSphere | Social Media for VITians"
+              description="Full-stack MERN project designed to create a thriving online community for VIT students. This platform allows students to connect, share posts, toggle between dark and light themes, and manage their sessions securely."
+              ghLink="https://github.com/ishanaudichya/social-media"
+              demoLink="https://vitsphere.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
