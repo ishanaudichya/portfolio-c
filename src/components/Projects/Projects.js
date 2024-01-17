@@ -40,12 +40,12 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={erp}
               isBlog={false}
-              title="GitHub Buddy Glimpse"
-              description="GitHub Buddy Glimpse is a project website that allows you to easily view the entire GitHub profile of a user just by entering their username. It provides an efficient way to display the user's repositories and basic information in a user-friendly manner."
-              ghLink="https://github.com/ishanaudichya/Git-Buddy-Glimpse"
-              demoLink="https://githubbuddyglimpse.netlify.app/"
+              title="Business ERP Software | Inventory Management & Invoicing"
+              description=" MERN Business Software simplifies inventory management and invoicing. Easily add, categorize, and edit products. Create professional invoices with real-time data sync and a powerful tech stack. Your one-stop solution for business needs"
+              ghLink="https://github.com/ishanaudichya/business-erp-mern"
+              demoLink="https://neonsports.vercel.app/"
             />
           </Col>
 
@@ -57,16 +57,6 @@ function Projects() {
               description="React.js-based Web Software that offers secure authentication, comprehensive sales analytics, employee management, data export, and intuitive task management, all with a user-friendly interface and support for light and dark modes for a seamless user experience."
               ghLink="https://github.com/ishanaudichya/sales-management-software"
               demoLink="https://audichyaenterprises.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={erp}
-              isBlog={false}
-              title="Business ERP Software | Inventory Management & Invoicing"
-              description=" MERN Business Software simplifies inventory management and invoicing. Easily add, categorize, and edit products. Create professional invoices with real-time data sync and a powerful tech stack. Your one-stop solution for business needs"
-              ghLink="https://github.com/ishanaudichya/business-erp-mern"
-              demoLink="https://neonsports.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -90,6 +80,16 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="GitHub Buddy Glimpse"
+              description="GitHub Buddy Glimpse is a project website that allows you to easily view the entire GitHub profile of a user just by entering their username. It provides an efficient way to display the user's repositories and basic information in a user-friendly manner."
+              ghLink="https://github.com/ishanaudichya/Git-Buddy-Glimpse"
+              demoLink="https://githubbuddyglimpse.netlify.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
