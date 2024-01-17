@@ -7,12 +7,18 @@ import { BsGithub } from "react-icons/bs";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img
-        variant="top"
-        draggable="false"
-        src={props.imgPath}
-        alt="card-img"
-      />
+      <a
+        href={props.demoLink ? props.demoLink : props.ghLink}
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Card.Img
+          variant="top"
+          draggable="false"
+          src={props.imgPath}
+          alt="card-img"
+        />
+      </a>
       <Card.Body>
         <Card.Title>
           <strong>{props.title}</strong>
