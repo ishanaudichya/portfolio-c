@@ -12,12 +12,13 @@ import {
   AiOutlineFundProjectionScreen,
   AiFillLinkedin,
   AiOutlineUser,
+  AiFillGithub,
 } from "react-icons/ai";
 import { FaRegFileCode } from "react-icons/fa";
 
 import { CgFileDocument } from "react-icons/cg";
 
-function NavBar() {
+function NavBar({ setGameActive }) {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
@@ -102,16 +103,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
-              <Nav.Link
-                href="https://www.linkedin.com/in/ishan-audichya/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <AiOutlineLinkedin style={{ marginBottom: "2px" }} /> LinkedIn
-              </Nav.Link>
-            </Nav.Item> */}
-
             <Nav.Item className="fork-btn">
               <Button
                 href="https://www.linkedin.com/in/ishan-audichya/"
@@ -128,7 +119,16 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
               >
+                <AiFillGithub style={{ fontSize: "1.2em" }} />{" "}
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+                <AiFillStar style={{ fontSize: "1.1em" }} />
+              </Button>
+            </Nav.Item>
+            <Nav.Item className="fork-btn">
+              <Button
+                onClick={() => setGameActive(true)}
+                className="fork-btn-inner"
+              >
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>

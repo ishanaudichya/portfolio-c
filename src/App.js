@@ -17,7 +17,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Techstack from "./components/Techstack/Techstack.js";
-
+import Snakegame from "./components/Snakegame";
 function App() {
   const [load, upadateLoad] = useState(true);
   window.console.log = () => {};
@@ -28,13 +28,15 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
-
+  const [gameActive, setGameActive] = useState(false);
   return (
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
+        <Navbar setGameActive={setGameActive} />
         <ScrollToTop />
+
+        {gameActive && <Snakegame setGameActive={setGameActive} />}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/techstack" element={<Techstack />} />
