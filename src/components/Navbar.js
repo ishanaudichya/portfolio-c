@@ -5,7 +5,8 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+import { GiSandSnake } from "react-icons/gi";
+
 import {
   AiFillStar,
   AiOutlineHome,
@@ -120,8 +121,6 @@ function NavBar({ setGameActive }) {
                 className="fork-btn-inner"
               >
                 <AiFillGithub style={{ fontSize: "1.2em" }} />{" "}
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
             <Nav.Item className="fork-btn">
@@ -129,7 +128,7 @@ function NavBar({ setGameActive }) {
                 onClick={() => setGameActive(true)}
                 className="fork-btn-inner"
               >
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <GiSandSnake style={{ fontSize: "1.2em", margin: "0px" }} />{" "}
               </Button>
             </Nav.Item>
           </Nav>

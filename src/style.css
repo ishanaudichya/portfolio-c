@@ -761,6 +761,7 @@ button:focus {
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
+  margin: 0 !important;
 }
 
 .fork-btn-inner:hover {
