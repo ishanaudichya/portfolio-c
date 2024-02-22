@@ -87,7 +87,6 @@ function Projects() {
               title="Blogify | Blogging Platform"
               description="Is a EJS blogging platform with MongoDB. DockerFile with compose and port mapping. Image pushed to dockerhub and deployed on AWS EC2 instance & ECR "
               ghLink="https://github.com/ishanaudichya/"
-              demoLink="https://reactive-dots-ishan.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
