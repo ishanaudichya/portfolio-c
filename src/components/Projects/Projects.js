@@ -86,7 +86,7 @@ function Projects() {
               isBlog={false}
               title="Blogify | Blogging Platform"
               description="Is a EJS blogging platform with MongoDB. DockerFile with compose and port mapping. Image pushed to dockerhub and deployed on AWS EC2 instance & ECR "
-              ghLink="https://github.com/ishanaudichya/"
+              ghLink="https://github.com/ishanaudichya/blog-ecs-node"
             />
           </Col>
           <Col md={4} className="project-card">
