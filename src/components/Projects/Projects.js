@@ -12,6 +12,8 @@ import sales from "../../Assets/Projects/sales.png";
 import imgcrypt from "../../Assets/Projects/imgcrypt.png";
 import vitsphere from "../../Assets/Projects/vitsphere.png";
 import erp from "../../Assets/Projects/erp.png";
+import easydeploy from "../../Assets/Projects/easydeploy.png";
+import blogecs from "../../Assets/Projects/blogecs.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -28,6 +30,15 @@ function Projects() {
           repositories
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={easydeploy}
+              isBlog={false}
+              title="EasyDeploy | Netlify clone | AWS"
+              description="Scalable One click deployement using AWS services. It converts any git repository to react build in an EC2 instance uploads it to a S3 bucket and then serves the build using a reverse proxy server. Logs using REDIS and WEBSOCKETS  "
+              ghLink="https://github.com/ishanaudichya/easydeploy-netlifyclone"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={vitsphere}
@@ -66,6 +77,16 @@ function Projects() {
               title="Dotify | Img to Reacitve dots"
               description="Dotify is a web-based project that harnesses the power of JavaScript to breathe life into your favorite images, allowing them to come alive as reactive dots that collide, merge, and leave behind an impression of the original image."
               ghLink="https://github.com/ishanaudichya/reactive-dots"
+              demoLink="https://reactive-dots-ishan.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blogecs}
+              isBlog={false}
+              title="Blogify | Blogging Platform"
+              description="Is a EJS blogging platform with MongoDB. DockerFile with compose and port mapping. Image pushed to dockerhub and deployed on AWS EC2 instance & ECR "
+              ghLink="https://github.com/ishanaudichya/"
               demoLink="https://reactive-dots-ishan.netlify.app/"
             />
           </Col>
