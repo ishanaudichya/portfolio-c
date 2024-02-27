@@ -34,7 +34,7 @@ function Projects() {
             <ProjectCard
               imgPath={easydeploy}
               isBlog={false}
-              title="EasyDeploy | Netlify clone | AWS"
+              title="EasyDeploy | AWS EC2 S3 | Redis"
               description="Scalable One click deployement using AWS services. It converts any git repository to react build in an EC2 instance uploads it to a S3 bucket and then serves the build using a reverse proxy server. Logs using REDIS and WEBSOCKETS  "
               ghLink="https://github.com/ishanaudichya/easydeploy"
             />
