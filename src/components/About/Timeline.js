@@ -37,7 +37,9 @@ const Timeline = () => {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<img alt="econ" className="img-timeline" src={econ}></img>}
         >
-          <h3 className="vertical-timeline-element-title">PES Web Intern</h3>
+          <h3 className="vertical-timeline-element-title">
+            Software Development Intern
+          </h3>
           <h4 className="vertical-timeline-element-subtitle">
             E Connect Solutions Pvt. Ltd.
           </h4>
