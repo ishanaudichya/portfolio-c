@@ -6,7 +6,6 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
 
-
 function Home() {
   return (
     <section>
@@ -16,7 +15,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hello!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
@@ -32,15 +31,15 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingTop:120, paddingBottom: 20 }}>
-            <Tilt>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "800px",  }}/>
-
-                </Tilt>
+            <Col md={5} style={{ paddingTop: 120, paddingBottom: 20 }}>
+              <Tilt>
+                <img
+                  src={homeLogo}
+                  alt="home pic"
+                  className="img-fluid"
+                  style={{ maxHeight: "800px" }}
+                />
+              </Tilt>
             </Col>
           </Row>
         </Container>

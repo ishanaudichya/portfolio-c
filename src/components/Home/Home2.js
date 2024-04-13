@@ -15,28 +15,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I specialize in MERN stack development, with a strong focus on{" "}
-              <b className="purple">React and Next.js</b> for creating modern
-              web applications.
+              I specialize in development stack, with a strong focus on{" "}
+              <b className="purple">System Design</b> for creating modern web
+              applications.
               <br />I have a keen interest in{" "}
-              <b className="purple">Machine Learning</b> and{" "}
-              <b className="purple">Deep Learning</b>, and I'm proficient in
-              using TensorFlow. <br />
+              <b className="purple">Data Structures</b> and{" "}
+              <b className="purple">Algorithm</b>, and I'm proficient in using
+              MERN Stack
+              <br />
               My programming skills encompass{" "}
               <b className="purple">Python, C++, Java, and JavaScript </b>
               <br />
-              When I have spare time, I enjoy{" "}
-              <b className="purple">3D design</b> as a creative outlet primarily{" "}
-              <b className="purple">Blender</b>.<br></br>
-              <br />
               I'm committed to continuous learning and staying up-to-date with
-              emerging technologies.
+              emerging technologies and proficient in{" "}
+              <b className="purple">AWS</b>.
               <br />
               My problem-solving mindset and dedication to coding excellence
               drive me to excel in my work.<br></br>
-              I'm eager to collaborate with like-minded professionals and
-              explore new opportunities in software development and artificial
-              intelligence
+              Make sure to visit my <b className="purple">Projects</b> and see
+              all the live demos and code.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

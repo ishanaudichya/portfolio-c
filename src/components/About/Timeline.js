@@ -10,6 +10,7 @@ import ieee from "../../Assets/iee.png";
 import vit from "../../Assets/vit.png";
 import res from "../../Assets/res.png";
 import dps from "../../Assets/dps.png";
+import disney from "../../Assets/disney.png";
 
 const Timeline = () => {
   return (
@@ -17,7 +18,23 @@ const Timeline = () => {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="Aug 2023 - present"
+          contentStyle={{ background: "rgb(0, 120, 120)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="Feb 2024 - Present"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<img alt="econ" className="img-timeline" src={disney}></img>}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Software Developer
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Disney Graphics
+          </h4>
+          <p>Project Management, WebDev, AWS, Deployment, Devops, UI/UX</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Aug 2023 - Feb 2024"
           contentStyle={{ background: "#0d1414", color: "#fff" }}
           iconStyle={{ background: "#fff", color: "#fff" }}
           icon={<img alt="ieee" className="img-timeline" src={ieee}></img>}
