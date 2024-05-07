@@ -61,8 +61,7 @@ const Timeline = () => {
             E Connect Solutions Pvt. Ltd.
           </h4>
           <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
+            Aws, React, React-Native, Expo, System Design, Deployment, Devops
           </p>
         </VerticalTimelineElement>
 
@@ -81,18 +80,6 @@ const Timeline = () => {
           </h4>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement
-          contentStyle={{ background: "#0d1414", color: "#fff" }}
-          className="vertical-timeline-element--education"
-          date="2018 - 2021"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          icon={<img alt="res" className="img-timeline" src={res}></img>}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Resonance Eduventures Limited
-          </h3>
-          <h5 className="vertical-timeline-element-subtitle">PCM</h5>
-        </VerticalTimelineElement>
         <VerticalTimelineElement
           contentStyle={{ background: "#0d1414", color: "#fff" }}
           className="vertical-timeline-element--education"
