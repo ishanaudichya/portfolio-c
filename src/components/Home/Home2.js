@@ -4,8 +4,9 @@ import myImg from "../../Assets/pp.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Button from "react-bootstrap/Button";
 
-function Home2() {
+function Home2({ setGameActive }) {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -35,6 +36,11 @@ function Home2() {
               Make sure to visit my <b className="purple">Projects</b> and see
               all the live demos and code.
             </p>
+            <br />
+            <br />
+            <Button onClick={setGameActive} className="fork-btn-inner">
+              Play a Game
+            </Button>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

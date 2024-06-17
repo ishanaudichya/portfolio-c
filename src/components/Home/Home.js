@@ -6,7 +6,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
 
-function Home() {
+function Home({ setGameActive }) {
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -44,7 +44,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <Home2 setGameActive={setGameActive} />
     </section>
   );
 }

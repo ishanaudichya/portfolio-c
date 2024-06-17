@@ -5,10 +5,8 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { GiSandSnake } from "react-icons/gi";
 
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiFillLinkedin,
@@ -19,7 +17,7 @@ import { FaRegFileCode } from "react-icons/fa";
 
 import { CgFileDocument } from "react-icons/cg";
 
-function NavBar({ setGameActive }) {
+function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
@@ -59,6 +57,12 @@ function NavBar({ setGameActive }) {
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link href="https://audichyablog.vercel.app" target="_blank">
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
 
@@ -121,14 +125,6 @@ function NavBar({ setGameActive }) {
                 className="fork-btn-inner"
               >
                 <AiFillGithub style={{ fontSize: "1.2em" }} />{" "}
-              </Button>
-            </Nav.Item>
-            <Nav.Item className="fork-btn">
-              <Button
-                onClick={() => setGameActive(true)}
-                className="fork-btn-inner"
-              >
-                <GiSandSnake style={{ fontSize: "1.2em", margin: "0px" }} />{" "}
               </Button>
             </Nav.Item>
           </Nav>

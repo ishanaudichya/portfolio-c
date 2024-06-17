@@ -33,12 +33,12 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar setGameActive={setGameActive} />
+        <Navbar />
         <ScrollToTop />
 
         {gameActive && <Snakegame setGameActive={setGameActive} />}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home setGameActive={setGameActive} />} />
           <Route path="/techstack" element={<Techstack />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
