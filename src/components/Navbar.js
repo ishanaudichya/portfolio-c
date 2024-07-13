@@ -60,11 +60,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link href="https://audichyablog.vercel.app" target="_blank">
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
-            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
@@ -107,7 +102,11 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
+            <Nav.Item>
+              <Nav.Link href="https://audichyablog.vercel.app" target="_blank">
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Blogs
+              </Nav.Link>
+            </Nav.Item>
             <Nav.Item className="fork-btn">
               <Button
                 href="https://www.linkedin.com/in/ishan-audichya/"
