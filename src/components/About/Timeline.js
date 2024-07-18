@@ -50,7 +50,7 @@ const Timeline = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(0, 120, 120)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="Sept 2023 - December 2023"
+          date="Sept 2023 - Dec 2023"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<img alt="econ" className="img-timeline" src={econ}></img>}
         >
