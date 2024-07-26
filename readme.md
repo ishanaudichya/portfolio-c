@@ -1,14 +1,14 @@
 # <p align="center">Personal Portfolio</p>
 
-### <p align="center"><a align=center href="https://ishanaudichya.netlify.app">ishanaudichya.netlify.app</a></p>
+### <p align="center"><a align=center href="https://ishanaudichya.xyz">ishanaudichya.xyz</a></p>
 
 ![Thumbnail](/preview.jpg)
 
-Welcome to my responsive personal portfolio website repo, built with <a href="https://create-react-app.dev/">Create React App</a>! This portfolio is customized for optimal SEO and performance. Website is made mainly using <i>React.js </i> with sections for Projects, About, Resume, LinkedIn, etc.
+Welcome to my responsive personal portfolio website repo, built with <a href="https://create-react-app.dev/">React </a>! This portfolio is customized for optimal SEO and performance. Website is made mainly using <i>React.js </i> with sections for Projects, About, Resume, LinkedIn, etc.
 
 ## Indexing and Sitemap
 
-The website is indexed on google with proper seo practices. The website also has a proper <a href="https://ishanaudichya.netlify.app/sitemap.xml">Sitemap (Click Here) </a> . Due to proper indexing and best practices the site comes on top when searched <a href="https://www.google.com/search?q=ishan+audichya">Try here</a>
+The website is indexed on google with proper seo practices. The website also has a proper <a href="https://ishanaudichya.xyz/sitemap.xml">Sitemap (Click Here) </a> . Due to proper indexing and best practices the site comes on top when searched <a href="https://www.google.com/search?q=ishan+audichya">Try here</a>
 
 ![Search resutls](/search.png)
 
@@ -24,12 +24,11 @@ Here are the site stats using google search console and lighthouse.
 
 ## Deployement
 
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4ebe7d57-d6b2-4e70-affb-ad4d611b85be/deploy-status)](https://app.netlify.com/sites/ishanaudichya/deploys)
+![vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-Site link => https://ishanaudichya.netlify.app <br>
+Site link => https://ishanaudichya.xyz <br>
 
-The website is up and running on netlify and deployed via github integration. https://app.netlify.com/sites/ishanaudichya/deploys
+The website is up and running on vercel and connected on a domain using spaceship.io . 
 
 ## Liked My Portfolio?
 

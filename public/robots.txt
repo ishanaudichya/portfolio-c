@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Sitemap: https://ishanaudichya.netlify.app/sitemap.xml
+Sitemap: https://ishanaudichya.xyz/sitemap.xml
 Disallow:

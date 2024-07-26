@@ -103,7 +103,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="https://audichyablog.vercel.app" target="_blank">
+              <Nav.Link href="https://blog.ishanaudichya.xyz" target="_blank">
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
