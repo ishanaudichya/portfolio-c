@@ -1,6 +1,6 @@
 import React from "react";
 import Toolstack from "./Toolstack.js";
-import Particle from "../Particle.js";
+// import Particle from "../Particle.js";
 import { Container } from "react-bootstrap";
 import Frontend from "./Frontend.js";
 import Backend from "./Backend.js";
@@ -10,7 +10,7 @@ import Devops from "./Devops.js";
 function Techstackk() {
   return (
     <Container fluid className="about-section">
-      <Particle />
+      {/* <Particle /> */}
       <Container>
         <Container className="skillset">
           <h1 className="project-heading">
