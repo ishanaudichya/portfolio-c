@@ -127,7 +127,7 @@ function Projects() {
               isBlog={false}
               title="Malware Detection ML Model"
               description="This Python machine learning project utilizes scikit-learn, XGBoost, LightGBM, and Seaborn to classify URLs as either malware or phishing based on the Kaggle Malware URL dataset. It includes data cleaning, common token analysis, model training and url analysis"
-              ghLink="https://github.com/ishanaudichya/gpt3.5-chatbot-openaiapi"
+              ghLink="https://github.com/ishanaudichya/malware-link-ml/"
             />
           </Col>
           <Col md={4} className="project-card">
