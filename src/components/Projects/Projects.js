@@ -44,6 +44,16 @@ function Projects() {
             <ProjectCard
               imgPath={vitsphere}
               isBlog={false}
+              title="Luganodes Ethereum Tracker"
+              description="Luganodes Ethereum Tracker is a robust and efficient system designed to monitor and record ETH deposits on the Beacon Deposit Contract. This project provides real-time tracking of Ethereum transactions, database storage, live logging, and instant notifications through Telegram."
+              ghLink="https://github.com/ishanaudichya/social-media"
+              demoLink="https://vitsphere.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vitsphere}
+              isBlog={false}
               title="VitSphere | Social Media for VITians"
               description="Full-stack MERN project designed to create a thriving online community for VIT students. This platform allows students to connect, share posts, toggle between dark and light themes, and manage their sessions securely."
               ghLink="https://github.com/ishanaudichya/social-media"
