@@ -14,6 +14,7 @@ import vitsphere from "../../Assets/Projects/vitsphere.png";
 import erp from "../../Assets/Projects/erp.png";
 import easydeploy from "../../Assets/Projects/easydeploy.png";
 import blogecs from "../../Assets/Projects/blogecs.png";
+import tracker from "../../Assets/Projects/tracker.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -42,12 +43,12 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={vitsphere}
+              imgPath={tracker}
               isBlog={false}
               title="Luganodes Ethereum Tracker"
-              description="Luganodes Ethereum Tracker is a robust and efficient system designed to monitor and record ETH deposits on the Beacon Deposit Contract. This project provides real-time tracking of Ethereum transactions, database storage, live logging, and instant notifications through Telegram."
-              ghLink="https://github.com/ishanaudichya/social-media"
-              demoLink="https://vitsphere.vercel.app/"
+              description="A robust and efficient system designed to monitor and record ETH deposits on the Beacon Deposit Contract. This project provides real-time tracking of Ethereum transactions, database storage, live logging, and instant notifications through Telegram."
+              ghLink="https://github.com/ishanaudichya/luganodes-ethtrackerv2/"
+              demoLink="https://youtu.be/0qb0-YHE7Qw"
             />
           </Col>
           <Col md={4} className="project-card">
